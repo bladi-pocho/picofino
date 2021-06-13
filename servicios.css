@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+#cabeceralogo{
+    width: 96%;
+    height: 100px;
+    padding: 0% 2%;
+    background-color: #0F76A0;
+}
+#cabeceralogo center > div {
+    width: 900px;
+    margin: opx auto;
+    padding-top: 45px;
+}
+#cabeceralogo h2 {
+    font: bold 54px Arial, sans-serif;
+    color: #FFFFFF;
+}
+#menuprincipal{
+    width:100%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: #9FC8D9;
+    border-top: 1px solid #094660;
+    border-bottom: 1px solid #094660;
+}
+#menuprincipal > div {
+    width: 960px;
+    margin: 0px auto;
+}
+#menuprincipal li {
+    display: inline-block;
+    height: 35px;
+    padding:15px 10px 0px 10px ;
+    margin-right: 5px;
+}
+#menuprincipal li:hover{
+    background-color: #6FACC6;
+}
+#menuprincipal a {
+    font: bold 18px Arial, sans-serif;
+    color:#333333;
+    text-decoration: none;
+}
+#listamenu > li {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    padding:15px 10px 0px 10px;
+    margin-right: 5px;
+}
+#listamenu li > ul {
+    display: none;
+    position: absolute;
+    top:50px;
+    left: 0px;
+background-color: #9FC8D9;
+box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+border-radius: 0px 0px 5px 5px;
+list-style: none;
+z-index: 1000;
+}
+#listamenu li > ul > li {
+    width: 120px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#listamenu li:hover ul {
+    display: block;
+}
+#listamenu a {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+text-decoration: none;
+}
+#menuprincipal li:hover
+{
+    background-color: #6FACC6;
+}
+/*ARTICULO*/
+article{
+ width: 100%;  
+padding-top: 50px;
+height: 480px;
+background:  #E7F1F5;
+/*background: rgba(32, 149, 204, 0.767);*/
+}
+
+.caja1{
+    width: 290px;
+    height: 425px;
+    background: rgb(33, 156, 165);
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    border: 2px solid rgb(33, 149, 196);
+    transition: width 2s, height 2s;
+    -moz-transition: width 2s, height 2s -webkit-transform 2s;
+    -o-transition: widht 2s, height 2s, -o-transform2s;
+}
+/*article{
+    height: 460px;
+    background: rgb(46, 178, 211);
+}*/
+
+#pielogo{
+    width: 96%;
+    padding: 2%;
+    background-color: #0F76A0;
+}
+#pielogo > div {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #9FC8D9;
+    border-radius: 10px;
+}
+.seccionpie{
+
+    float:left;
+    width: 270px;
+    padding: 25px;
+}
+.seccionpie h1{
+    font: bold 20px Arial, sans-serif;
+}
+.seccionpie p {
+    margin-top: 5px;
+}
+.seccionpie a {
+    font: bold 16px Arial, sans-serif;
+    color:#666666;
+    text-decoration: none;
+}
+.seccionpie{
+    float: left;
+    width: 27.33%;
+    padding: 3%;
+}
